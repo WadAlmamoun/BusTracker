@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:orderInCategory="100"
+        android:title="-Select a Bus Route-"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/arabi_markazi"
+        android:orderInCategory="100"
+        android:title="السوق العربي -> السوق المركزي"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/markazi_arabi"
+        android:orderInCategory="100"
+        android:title="السوق المركزي -> السوق العربي"/>
+    <item
+        android:id="@+id/arabi_mamora"
+        android:orderInCategory="100"
+        android:title="السوق العربي -> المعمورة"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mamora_arabi"
+        android:orderInCategory="100"
+        android:title="المعمورة -> السوق العربي"/>
+    <item
+        android:id="@+id/arabi_jabra"
+        android:orderInCategory="100"
+        android:title="السوق العربي -> جبرة"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/jabra_arabi"
+        android:orderInCategory="100"
+        android:title="جبرة -> السوق العربي"/>
+
+</menu>
